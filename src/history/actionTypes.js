@@ -1,0 +1,1 @@
+export const DELETE_FROM_HISTORY = 'history/DELETE_FROM_HISTORY';
