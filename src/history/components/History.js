@@ -7,7 +7,7 @@ import Spinner from '../../ui/Spinner';
 
 const formatDate = time => {
   const date = new Date(time);
-  return `${date.getDate()}-${('0' + (date.getMonth() + 1)).slice(-2)}-${date.getFullYear()} ${date.getHours()}:${date.getMinutes()}`;
+  return `${date.getDate()}-${('0' + (date.getMonth() + 1)).slice(-2)}-${date.getFullYear()} ${date.getHours()}:${('0' + date.getMinutes()).slice(-2)}`;
 };
 
 const styles = {
